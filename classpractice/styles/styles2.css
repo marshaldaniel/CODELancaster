@@ -1,0 +1,45 @@
+#para1{
+    max-width: fit-content;
+
+    color: green;
+    font-weight:bold;
+    background-color: chocolate;
+
+    border-style:double;
+    border-width:thick;
+    border-color:darkblue;
+    border-radius:10px;
+
+    margin-bottom: 5px;
+} 
+.para2{
+    width:fit-content;
+
+    color: blue;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    
+    border-style:solid;
+    border-width:5px;
+    border-color:black;
+    border-radius:10px;
+
+    margin-top:5px;
+}
+p{
+    color: yellowgreen;
+    font-weight: bolder;
+}
+input[type="email"]{
+    width: 200px;
+    display: block;
+    color: green;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: coral;
+}
+button:hover{
+    background-color: aqua;
+}

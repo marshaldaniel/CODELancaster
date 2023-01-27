@@ -1,0 +1,78 @@
+
+.webpage
+ {
+    color:rgb(90, 53, 7);
+    background-color:rgb(221, 204, 183);
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0%;
+    
+}
+
+ 
+.about{
+    margin-bottom:  20px;;
+    margin-left: 20%;
+    align-self: center;
+    border-style:solid;
+    /**padding:30px;**/
+    border: 10px 10px 10px 10px;
+    border-color:rgb(112, 5, 5);
+    width: 50%;
+
+    justify-content:center;
+    text-align:center;
+    border-top-left-radius: 10pm;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+}
+.experience, .school, .sec1,.sec2, .exp1, .exp2, .exp3, .exp4, .q1, .q2, .q3
+{
+    margin:10px;
+    border-style:solid;
+    padding:30px;
+    border: 10px 10px 10px 10px;
+    border-color:rgb(112, 5, 5);
+    border-radius:10px;
+}
+
+#exphead{
+    display:inline;
+    text-align: center;
+}
+
+.experience{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+}
+
+.qualification, .accomplishment, .courses
+{
+    margin:10px;
+    border-style:solid;
+    padding:30px;
+    border: 10px 10px 10px 10px;
+    border-color: rgb(112, 5, 5);
+    border-radius:10px;
+    text-align:left;
+}
+
+
+footer{
+    position: relative;
+    text-align: center;
+    text-size-adjust:1px;
+}
+
+h1, h2, h3
+{
+    overflow-wrap:break-word;
+    text-shadow: 2px;
+}
+main{
+    background-color:blanchedalmond
+}
+header{
+    top: 10%;
+}
