@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="main5.css">
+<title>Flexbox</title>
+</head>
+<body>
+<div class="flex-container">
+<div class="itemA">div only</div>
+<div class="itemB">w150px</div>
+<div class="itemC">h200px</div>
+<div class="itemD">w/h400px</div>
+<div class="itemE">w150px</div>
+<div class="itemF">w150px</div>
+</div>
+</body>
+</html>

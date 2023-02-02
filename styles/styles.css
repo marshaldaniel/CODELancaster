@@ -1,53 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.webpage
+body
  {
     color:rgb(90, 53, 7);
     background-color:rgb(221, 204, 183);
+    border-color: forestgreen;
+    border:10px;
+    border-radius: 6px;
     font-size: medium;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 0%;
     
 }
-
  
-.about{
-    margin-bottom:  20px;;
-    margin-left: 20%;
-    align-self: center;
-    border-style:solid;
-    /**padding:30px;**/
-    border: 10px 10px 10px 10px;
-    border-color:rgb(112, 5, 5);
-    width: 50%;
-
+header
+{    
     justify-content:center;
-    text-align:center;
-    border-top-left-radius: 10pm;
+    box-align:center;
+    border-top-left-radius: 10px;
     border-bottom-left-radius:0px;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 0px;
-}
-.experience, .school, .sec1,.sec2, .exp1, .exp2, .exp3, .exp4, .q1, .q2, .q3
-{
-    margin:10px;
     border-style:solid;
-    padding:30px;
-    border: 10px 10px 10px 10px;
     border-color:rgb(112, 5, 5);
-    border-radius:10px;
-}
-
-#exphead{
-    display:inline;
+    margin-left: 20%;
+    margin-right:20%;
+    padding-left: 10px;
     text-align: center;
 }
 
-.experience{
-    display:grid;
-    grid-template-columns:repeat(3,minmax(0,1fr));
-}
-
-.qualification, .accomplishment, .courses
+.qualification, .accomplishment, .courses, .objectives, .skills
 {
     margin:10px;
     border-style:solid;
@@ -56,6 +40,25 @@
     border-color: rgb(112, 5, 5);
     border-radius:10px;
     text-align:left;
+}
+
+.experiences{
+	padding:20px;
+    margin:20px;
+    border: 5px;
+    border-radius:10px;
+    border-style: solid;
+    border-color:white;
+    
+}
+
+#exphead, .exp1, .exp2, .exp3, .exp4
+{
+	border:5px;
+    border-style:solid;
+	border-radius: 10px;
+	border-color:green;
+    margin:10px;
 }
 
 
@@ -71,8 +74,17 @@ h1, h2, h3
     text-shadow: 2px;
 }
 main{
-    background-color:blanchedalmond
+    background-color:burlywood;
+    border:10px solid;
+    border-radius:10px;
+    border-color: green;
+    margin:45px;
+    
 }
-header{
-    top: 10%;
+
+pre{
+    text-align:left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    word-spacing: 1px;
+    word-wrap:normal;
 }
