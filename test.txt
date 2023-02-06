@@ -1,1 +1,2 @@
 This is supposed to be created and then deleted.
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>

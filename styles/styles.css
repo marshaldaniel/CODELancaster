@@ -1,64 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 body
  {
     color:rgb(90, 53, 7);
     background-color:rgb(221, 204, 183);
-    border-color: forestgreen;
-    border:10px;
-    border-radius: 6px;
     font-size: medium;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0%;
     
-}
- 
-header
-{    
-    justify-content:center;
-    box-align:center;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius:0px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 0px;
-    border-style:solid;
-    border-color:rgb(112, 5, 5);
-    margin-left: 20%;
-    margin-right:20%;
-    padding-left: 10px;
-    text-align: center;
 }
 
 .qualification, .accomplishment, .courses, .objectives, .skills
 {
     margin:10px;
-    border-style:solid;
     padding:30px;
-    border: 10px 10px 10px 10px;
-    border-color: rgb(112, 5, 5);
-    border-radius:10px;
     text-align:left;
+    border-color: #111111;
+    border-style:solid;
+    border-left:none;
+    border-right:none;
+    border-radius: 5px;
+    border-top-style: none;
 }
+
+
 
 .experiences{
 	padding:20px;
-    margin:20px;
-    border: 5px;
+    margin:10px;
+    border: 3px;
     border-radius:10px;
-    border-style: solid;
-    border-color:white;
-    
+    border-style:solid;
+    border-left:none;
+    border-right:none;
+    border-color: #111111;
 }
+.overall
+{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:1rem;
+     /*  grid-template-rows: repeat(0,1fr); */
 
+}
 #exphead, .exp1, .exp2, .exp3, .exp4
 {
-	border:5px;
+	border:2px;
     border-style:solid;
 	border-radius: 10px;
-	border-color:green;
+	border-color:rgb(112, 5, 5);
     margin:10px;
+    padding:25px;
 }
 
 
@@ -74,17 +64,43 @@ h1, h2, h3
     text-shadow: 2px;
 }
 main{
-    background-color:burlywood;
-    border:10px solid;
-    border-radius:10px;
-    border-color: green;
-    margin:45px;
+    margin-left:50px;
+    margin-right:50px;
+    border-bottom: #111111;
     
 }
 
 pre{
-    text-align:left;
+    text-align:center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     word-spacing: 1px;
     word-wrap:normal;
 }
+#button{
+    border: 3px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color:green;
+    background-color: white;
+}
+.list{
+list-style-type:none;
+overflow: hidden;
+background-color: #333333;
+}
+
+.contactinfo{
+    float:left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:10px;
+    text-decoration:wavy;
+    margin-left:40px;
+}
+.contactinfo:hover{
+    background-color: #111111;
+}
+.skillslist{
+    list-style-type:armenian;
+}    
