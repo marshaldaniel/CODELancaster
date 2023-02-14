@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span>message:{{ msg }}</span>
+    <p>Using text interpolation:{{ rawHtml }}</p>
+    <p>Using v-html: <span v-html="rawHtml"></span></p>
+    <div v-bid:id="dynamicCid"></div>
+    //Short hand format
+    <div :id="dynamicCid"></div>
+    <button :disabled="isButtonDisabled">Button</button>
+    <script>
+        const numbers = [65,44,12,4];
+        //first function
+        const newArr = numbers.map(myFunction)
+
+        function myFunction(num){
+            return num*10;
+        }
+        const number = [1,2,3,4,5,6,7,8,9]
+
+        //second function
+        const evenNumbers = number.filter((number,index)=>{
+            return number % 2 == 0;
+        })
+        //third function
+        // let data = [
+        //     []
+        //     []
+        //     []
+        //     []
+        // ]
+
+        // let dataConcat = data.map(item=>item.reduce({a.i}))
+
+        const sum = numbers.reduce((previousValue,currentValue)=>{
+            previousValue = previousValue + currentValue
+            return previousValue
+        },0)
+
+        console.log(newArr)
+        console.log("Even Numbers",evenNumbers)
+        console.log("sum",sum)
+
+    </script>
+</body>
+</html>
